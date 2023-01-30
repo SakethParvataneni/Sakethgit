@@ -17,7 +17,7 @@ pipeline {
         
         stage('Deploy Website') {
             steps {
-                deploy website to Apache server
+                deploy website to local 
             }
         }
     }
